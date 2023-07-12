@@ -1,0 +1,63 @@
+.container {
+  width: 450px;
+  margin-top: 20px;
+  padding: 20px;
+  margin-inline: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-seciton {
+  display: flex;
+  gap: 5px;
+}
+.input-seciton input {
+  flex: 1;
+  outline: none;
+  color: rgb(105, 109, 112);
+  border: 1px solid silver;
+  border-radius: 3px;
+  padding: 5px;
+
+}
+.input-seciton button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  background:  rgb(37, 111, 230);
+  color: white;
+  font-weight: 400;
+}
+
+.reminds {
+  padding: 0;
+}
+
+.reminds li {
+  margin-top: 10px;
+  list-style: none;
+  border: 1px solid silver;
+  padding:5px;
+  border-radius: 3px;
+  background-color: rgb(245, 244, 244);
+  color: rgb(105, 109, 112);
+  display: flex;
+  justify-content: space-between;
+
+}
+.reminds li button {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(226, 57, 57);
+  color: #fff;
+  font-weight: 400;
+  border-radius: 6px;
+}
+
+.display-non {
+  display: none;
+}
